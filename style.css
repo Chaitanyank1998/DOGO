@@ -1,0 +1,171 @@
+*
+{
+    margin:0;
+    padding:0;
+    background: transparent;
+}
+body
+{
+    font-family: sans-serif;
+}
+.banner
+{
+    height: 100vh;
+    position: relative;
+}
+.slider
+{
+    width: 93%;
+    float: left;
+}
+.carousel-caption
+{
+    max-height: 350px !important;
+    max-width: 500px !important;
+    text-align: right !important;
+    right: 60px !important;
+    left: auto !important;
+    top: 160px !important;
+}
+.carousel-caption h1
+{
+    font-size: 70px;
+}
+.carousel-caption p
+{
+    margin-top: 40px;
+}
+
+.side-menu
+{
+    height: 100%;
+    width: 7%;
+    float: right;
+    background-color: #ffff;
+    position: relative;
+    z-index: 2;
+}
+.menu-icon
+{
+    width: 100%;
+    margin: 7%;
+    cursor: pointer;
+}
+.search-icon
+{
+    width: 50px;
+    margin: 30px;
+    margin-top: auto;
+    cursor: pointer;
+}
+.side-menu::after
+{
+    content: '';
+    width: 1px;
+    height: 130px;
+    background: #fff;
+    left: 45px;
+    top: 200px;
+    position: absolute;
+}
+
+.carousel-indicators
+{
+    left: 85% !important;
+    height: 40% !important;
+    width: 150px !important;
+    top: 55% !important;
+    display: block !important;
+    color: #0000 !important;
+}
+.carousel-indicators li
+{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin-left: 40px !important;
+    margin-top: 15px !important;
+    background: transparent !important;
+    border: 2px solid black !important;
+}
+
+.share
+{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.share img
+{
+    width: 40px;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+.share small
+{
+    font-family: sans-serif;
+    color: black;
+}
+
+.top-bar
+{
+    position: absolute;
+    margin: 30px 50px;
+    z-index: 2;
+}
+
+.top-bar img
+{
+    height: 90px;
+    cursor: pointer;
+
+}
+.top-bar ul
+{
+    display: inline-flex;
+}
+.top-bar ul li
+{
+    list-style: none;
+    margin: 0px 15px;
+    font-style: oblique;
+}
+
+.top-bar ul li a
+{
+    color: white;
+    display: block;
+    padding-top: 5px;
+}
+
+.social-icons
+{
+    top: 100%;
+    left: 0px;
+    position: absolute;
+    z-index: 5;
+}
+.social-icons ul
+{
+    margin: 70px 0px;
+    right: 80% !important;
+    height: 40% !important;
+    width: 150px !important;
+    padding: 10px !important;
+    display: block !important;
+    color: #ffff !important;
+}
+.social-icons ul li
+{
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.social-icons ul li a
+{
+    
+    color: white !important;
+}
+
+
